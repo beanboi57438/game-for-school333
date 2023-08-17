@@ -1,1 +1,3 @@
-# game-for-school333
+# game-for-school
+
+read me 
