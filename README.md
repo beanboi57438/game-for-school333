@@ -1,3 +1,2 @@
 # game-for-school
-
-read me 
+very big game yay
