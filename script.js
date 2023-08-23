@@ -13,18 +13,17 @@ setInterval(function(){
     if(jumping==0){
     character.style.top = (characterTop+3)+"px";
     }
-},10)
+},10);
 
 function jump(){
     jumping = 1;
     let jumpcount = 0;
     var jumpInterval = setInterval(function(){
-        var characterTop = 
+     var characterTop = 
     parseInt(window.getComputedStyle(character).getPropertyValue("top"));
-    if((character>6)&&(counter<15)){
+    if((characterTop>6)&&(counter<15)){
         character.style.top = (characterTop-5)+"px";
     }
-
     if(jumpcount>20){
         clearInterval(jumpInterval);
         jumping=0;
