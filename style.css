@@ -1,5 +1,7 @@
-.backgroundcolor{
+body {
     background-image: url("the-brook-trout-or-eastern-brook-trout-fish-salvelinus-fontinalis.jpg");
+    width: auto;
+    height: auto;
 }
 *{
     padding: 0;
@@ -8,9 +10,10 @@
 #game{
     width: 400px;
     height: 500px;
-    border: 1px solid black;
+    border: 1px solid black;   /*game canvas*/
     margin: auto;
     overflow: hidden;
+    background-color: salmon;
 }
 #block{
     width: 50px;
