@@ -1,3 +1,6 @@
+h1{
+    color:bisque;
+}
 body {
     background-image: url("the-brook-trout-or-eastern-brook-trout-fish-salvelinus-fontinalis.jpg");
     width: auto;
@@ -19,7 +22,7 @@ body {
     width: 50px;
     height: 500px;
     background-color: black;
-    position: relative;
+    position: relative;              /*moveing block*/
     left: 400px;
     animation: block 2s infinite linear;
 }
@@ -31,7 +34,7 @@ body {
     width: 50px;
     height: 150px;
     background-color: white;
-    position: relative;
+    position: relative;             /*the hole the player goes throught*/
     left: 400px;
     top: -500px;
     animation: block 2s infinite linear;
