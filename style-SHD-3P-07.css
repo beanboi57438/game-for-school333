@@ -1,12 +1,8 @@
-p{
-  color:blue;
-  font-size: 25px;
-  padding-top: 15px;
-}
 h1{
     color:bisque;
     font-size: 50px;
-    padding: 0px;
+
+    padding-bottom: 230px;
 }
 body {
     background-image: url("the-brook-trout-or-eastern-brook-trout-fish-salvelinus-fontinalis.jpg");
