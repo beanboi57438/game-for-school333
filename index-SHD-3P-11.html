@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy trout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <div id="block"></div>
+        <div id="hole"></div>      <!--all the diffent game element for it to work-->
+        <div id="character"></div>
+    </div>
+   <h1>flappy trout</h1>
+   <h2>how to play click anywhere to move the character avoid the moveing black box</h2>  <!--how to play and what it is called -->
+   <h3>you score will show at the end good luck:)</h3>
+   <script>
+    // Ask the user for their username using the prompt function
+    const username = prompt("Please enter your username:");
+   
+    // Check if the user entered a username
+    if (username !== null) {
+      alert("Welcome, " + username + "!");
+    } else {
+      // Handle the case where the user cancels the prompt
+      alert("You didn't enter a username. Default name will be used.");
+      username = "DefaultUser";
+    }
+   
+    // Now you can use the 'username' variable in your game.
+  </script>
+   
+</body>
+
+<script src="script.js"></script> <!--linking the java scrip to the html canvas-->
+</html>
