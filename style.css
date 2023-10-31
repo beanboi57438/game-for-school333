@@ -3,11 +3,11 @@ p{
 }
 h1{
     color:bisque;
-    font-size: 50px;
+    font-size: 50px; /*the main text for the page */
     padding: 0px;
 }
 body {
-    background-image: url("the-brook-trout-or-eastern-brook-trout-fish-salvelinus-fontinalis.jpg");
+    background-image: url("the-brook-trout-or-eastern-brook-trout-fish-salvelinus-fontinalis.jpg"); 
     width: auto;
     height: auto;
     text-align: center;
