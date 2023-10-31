@@ -20,7 +20,7 @@ body {
 #game{
     width: 400px;
     height: 500px;
-    border: 1px solid black;   /*game canvas*/
+    border: 1px solid black;   /*game canvas and all the styles for the game */
     margin: auto;
     overflow: hidden;
     background-color: salmon;
@@ -29,7 +29,7 @@ body {
     width: 50px;
     height: 500px;
     background-color: black;
-    position: relative;              /*moveing block*/
+    position: relative;              /*the styles for the blocks*/
     left: 400px;
     animation: block 2s infinite linear;
 }
@@ -41,7 +41,7 @@ body {
     width: 50px;
     height: 150px;
     background-color: white;
-    position: relative;             /*the hole the player goes throught*/
+    position: relative;             /*the hole the player goes throught and the syles for the block*/
     left: 400px;
     top: -500px;
     animation: block 2s infinite linear;
@@ -49,7 +49,7 @@ body {
 #character{
     width: 50px;
     height: 20px;
-    background-color: Blue;
+    background-color: Blue;  /*the charcter you play as and the style of the character*/
     position: absolute;
     top: 100px;
     border-radius: 50%;
